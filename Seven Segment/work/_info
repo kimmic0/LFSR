@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate
+vsevenseg
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1650939414
+!i10b 1
+!s100 XNb7M:;JHfma_FIY^i7l03
+IRMKJBQPjz7K9?7f[[jVe<0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 sevenseg_sv_unit
+S1
+Z3 dC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment
+w1650939384
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1650939414.182000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv|
+!i113 1
+Z5 o-work work -sv
+vtestbench_7seg
+R0
+R1
+!i10b 1
+!s100 G?RYXj4Hd[=8mcSKL;Bej1
+Ih1Y3QU7hJ5[KjaIbJV_Ie3
+R2
+!s105 sevenseg_testbench_sv_unit
+S1
+R3
+w1650939377
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg_testbench.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg_testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1650939414.048000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg_testbench.sv|
+!i113 1
+R5
