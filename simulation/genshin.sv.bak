@@ -1,0 +1,58 @@
+module genshin(input logic 	clk, 
+		   input logic   reset,
+		   input logic [4:0]   q,
+		   input logic         ls,
+		   input logic         push,
+		   output logic [6:0] segments);
+
+logic path;
+
+logic [3:0]  bts, y, character;
+		
+
+always_ff@(posedge clk, posedge reset)
+if(reset) y = 1;
+	else 
+        begin
+             path = bts[0] ^ bts[1];
+             y = {path, bts[3:0]};
+	   end
+
+always_ff@(posedge ls)
+ if(ls ) bts = q;
+
+always_ff@(posedge push)
+if(push)  character = y;
+else      y = y; 
+
+	always_comb	
+		case(character)
+			8'h41:		segments = 7'h08;		//A
+			8'h42:		segments = 7'h03;		//B
+			8'h43:		segments = 7'h27;		//C
+			8'h44:		segments = 7'h21;		//D
+			8'h45:		segments = 7'h06;		//E
+			8'h46:		segments = 7'h0E;		//F
+			8'h47:		segments = 7'h02;		//G
+			8'h48:		segments = 7'h0B;		//H
+			8'h49:		segments = 7'h79;		//I
+			8'h4A:		segments = 7'h71;		//J
+			8'h4B:		segments = 7'h0A;		//K
+			8'h4C:		segments = 7'h47;		//L
+			8'h4D:		segments = 7'h2A;		//M
+			8'h4E:		segments = 7'h2B;		//N
+			8'h4F:		segments = 7'h23;		//O
+			8'h50:		segments = 7'h0C;		//P
+			8'h51:		segments = 7'h18;		//Q
+			8'h52:		segments = 7'h2F;		//R
+			8'h53:		segments = 7'h12;		//S
+			8'h54:		segments = 7'h07;		//T
+			8'h55:		segments = 7'h63;		//U
+			8'h56:		segments = 7'h55;		//V
+			8'h57:		segments = 7'h19;		//W
+			8'h58:		segments = 7'h6B;		//X
+			8'h59:		segments = 7'h11;		//Y
+			8'h5A:		segments = 7'h24;		//Z
+			default: segments = 7'h40;
+		endcase
+endmodule

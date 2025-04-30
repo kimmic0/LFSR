@@ -1,0 +1,78 @@
+module testbench_genshin();
+ logic 		 clk; 
+ logic   		 reset;
+ logic 	[6:0] q;
+ logic    	 ls;
+ logic    	 push;
+ logic 	[6:0] segment1, segments_expected1;
+ logic	[6:0] segment2, segments_expected2;
+ logic	[6:0] segment3, segments_expected3;
+ logic	[6:0] segment4, segments_expected4;
+ logic 	[31:0] vectornum, errors;
+ logic 	[17:0] testvectors[38:0];
+
+
+  // instantiate device under test
+  genshin dut(clk, reset, q, ls, push, segment1, segment2, segment3, segment4);
+
+  // generate clock
+  always 
+    begin
+      clk = 1; #5; clk = 0; #5;
+    end
+
+  // at start of test, load vectors
+  // and pulse reset
+  initial
+    begin
+      $readmemh("characterlist.txt", testvectors);
+      vectornum = 0; errors = 0;
+      reset = 1; #27; reset = 0;
+    end
+
+  // apply test vectors on rising edge of clk
+  always @(posedge clk)
+    begin
+     #1; {q, segments_expected1} = testvectors[vectornum];
+	#2; {q, segments_expected2} = testvectors[vectornum];
+	#3; {q, segments_expected3} = testvectors[vectornum];
+	#4; {q, segments_expected4} = testvectors[vectornum];
+    end
+
+  // check results on falling edge of clk
+  always @(negedge clk)
+    if (~reset) begin // skip during reset
+      if (segment1 !== segments_expected1) begin  // check result
+        $display("Error: inputs = %h", q);
+        $display("  outputs = %h (%h expected)", segment1, segments_expected1);
+        errors = errors + 1;
+      end
+      vectornum = vectornum + 1;
+
+      if (segment2 !== segments_expected2) begin  // check result
+        $display("Error: inputs = %h", q);
+        $display("  outputs = %h (%h expected)", segment2, segments_expected2);
+        errors = errors + 1;
+      end
+      vectornum = vectornum + 1;
+
+      if (segment3 !== segments_expected3) begin  // check result
+        $display("Error: inputs = %h", q);
+        $display("  outputs = %h (%h expected)", segment3, segments_expected3);
+        errors = errors + 1;
+      end
+      vectornum = vectornum + 1;
+
+      if (segment4 !== segments_expected4) begin  // check result
+        $display("Error: inputs = %h", q);
+        $display("  outputs = %h (%h expected)", segment4, segments_expected4);
+        errors = errors + 1;
+      end
+      vectornum = vectornum + 1;
+      if (testvectors[vectornum] === 11'bx) begin 
+        $display("%d tests completed with %d errors", 
+	           vectornum, errors);
+        $stop;
+      end
+    end
+endmodule

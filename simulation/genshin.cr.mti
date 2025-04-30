@@ -1,0 +1,29 @@
+{C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module lsfr
+
+Top level modules:
+	lsfr
+
+} {} {}} {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module lfsr_tb
+
+Top level modules:
+	lfsr_tb
+
+} {} {}} {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}} {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/sevenseg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/sevenseg.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}}

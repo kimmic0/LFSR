@@ -1,0 +1,15 @@
+{C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/sevenseg_testbench.sv} {1 {vlog -work work -sv -stats=none {C:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg_testbench.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module testbench_7seg
+
+Top level modules:
+	testbench_7seg
+
+} {} {}} {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/sevenseg.sv} {1 {vlog -work work -sv -stats=none {C:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}}
