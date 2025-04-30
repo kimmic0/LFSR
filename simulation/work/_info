@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject
+vgenshin
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1651192498
+!i10b 1
+!s100 d3G2UoYG<_R=9igTNcZ<V3
+I@V?aSUFjgan=jKbW2H=Dm2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 genshin_sv_unit
+S1
+Z2 dC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate
+w1651183227
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/genshin.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/genshin.sv
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1651192498.918000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/genshin.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/genshin.sv|
+!i113 1
+Z4 o-work work -sv
+vlfsr_tb
+R0
+Z5 !s110 1651194059
+!i10b 1
+!s100 Cz@DaE2e=WeocG9ec4NTe2
+Im:GQ`XMhE5Q0[b1T0=B5]2
+R1
+!s105 lsfr_tb_sv_unit
+S1
+R2
+w1651194039
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651194059.631000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr_tb.sv|
+!i113 1
+R4
+vlsfr
+R0
+R5
+!i10b 1
+!s100 L;I7c_WUo?^LIiG_AG7Y30
+I3DH^5Mo?<JOc0D^3Il;Jk1
+R1
+!s105 lsfr_sv_unit
+S1
+R2
+w1651193566
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651194059.493000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/lsfr.sv|
+!i113 1
+R4
+vsevenseg
+R0
+R5
+!i10b 1
+!s100 knf>j^lPYV0]nBjn^[VdU0
+ImT7g]Qgl>:jO5SISfiY8h2
+R1
+!s105 sevenseg_sv_unit
+S1
+R2
+w1650957934
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651194059.358000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/Seven Segment/sevenseg.sv|
+!i113 1
+R4
+vtestbench_7seg
+R0
+!s110 1650932353
+!i10b 1
+!s100 L[;@OSgli`UZ1bKR]m6MA2
+I[QRQD<j;_=<KkW=0bMnR<2
+R1
+!s105 sevenseg_testbench_sv_unit
+S1
+R2
+w1650932007
+8C:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg_testbench.sv
+FC:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg_testbench.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1650932353.095000
+!s107 C:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\kiman\OneDrive\Desktop\School\CPE\CPE 200L\FinalProject\simulate\sevenseg_testbench.sv|
+!i113 1
+R4
+vtestbench_genshin
+R0
+!s110 1651192499
+!i10b 1
+!s100 FXU@d0]NZ`<4Gk>jKH_>d0
+IM<cZ9N]HDPX1QC]?1BOER1
+R1
+!s105 testbench_genshin_sv_unit
+S1
+R2
+w1651182472
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/testbench_genshin.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/testbench_genshin.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651192499.097000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/testbench_genshin.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/simulate/testbench_genshin.sv|
+!i113 1
+R4
