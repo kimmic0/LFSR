@@ -1,0 +1,15 @@
+{C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module lfsr_tb
+
+Top level modules:
+	lfsr_tb
+
+} {} {}} {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}}
