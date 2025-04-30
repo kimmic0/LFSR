@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR
+vlfsr
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1651606294
+!i10b 1
+!s100 XkJ:O6Aaem2@DNDk5A0Aj3
+I2Tk?D`a^lY2C3ZaCdY^km0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 lfsr_sv_unit
+S1
+R0
+w1651606265
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1651606294.643000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr.sv|
+!i113 1
+Z5 o-work work -sv
+vlfsr_tb
+R1
+R2
+!i10b 1
+!s100 ZQg9cTX=TZSj@?aG_d[:12
+IBj[oD]W;D5bjUR]V@gz4V3
+R3
+!s105 lfsr_tb_sv_unit
+S1
+R0
+w1651549357
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1651606294.760000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/lfsr_tb.sv|
+!i113 1
+R5
+vsevenseg
+R1
+R2
+!i10b 1
+!s100 chQe]`dn76KgkaMW26aW02
+IYYz?;AdRZQHn3o>1Ze@U^0
+R3
+!s105 sevenseg_sv_unit
+S1
+R0
+w1651549102
+8C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv
+FC:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1651606294.863000
+!s107 C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/kiman/OneDrive/Desktop/School/CPE/CPE 200L/FinalProject/LFSR/sevenseg.sv|
+!i113 1
+R5
